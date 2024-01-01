@@ -1,0 +1,330 @@
+.frame {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.frame .div {
+  height: 2660px;
+  position: relative;
+  width: 1169px;
+}
+
+.frame .overlap {
+  background-color: #54bcf9;
+  height: 549px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1169px;
+}
+
+.frame .overlap-group {
+  height: 173px;
+  left: 430px;
+  position: absolute;
+  top: 47px;
+  width: 237px;
+}
+
+.frame .ellipse {
+  border: 8px solid;
+  border-color: #000000;
+  border-radius: 83px;
+  height: 166px;
+  left: 71px;
+  position: absolute;
+  top: 0;
+  width: 166px;
+}
+
+.frame .text-wrapper {
+  color: #292929;
+  font-family: "Ubuntu Condensed-Regular", Helvetica;
+  font-size: 92px;
+  font-weight: 400;
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 29px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  text-decoration: underline;
+  top: 146px;
+  white-space: nowrap;
+}
+
+.frame .detail-oriented-with {
+  color: #030202;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 421px;
+  width: 664px;
+}
+
+.frame .text-wrapper-3 {
+  color: #eeece7;
+  font-family: "Ubuntu Condensed-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 337px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 561px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  text-decoration: underline;
+  top: 220px;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 667px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  text-decoration: underline;
+  top: 193px;
+  white-space: nowrap;
+}
+
+.frame .overlap-group-2 {
+  background-color: #eeece7;
+  height: 2111px;
+  left: 0;
+  position: absolute;
+  top: 549px;
+  width: 1169px;
+}
+
+.frame .text-wrapper-6 {
+  color: #54bcf9;
+  font-family: "Ubuntu Condensed-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 51px;
+  letter-spacing: 0.96px;
+  line-height: 82px;
+  position: absolute;
+  top: 1756px;
+  white-space: nowrap;
+}
+
+.frame .overlap-2 {
+  height: 82px;
+  left: 10px;
+  position: absolute;
+  top: 28px;
+  width: 180px;
+}
+
+.frame .text-wrapper-7 {
+  color: #54bcf9;
+  font-family: "Ubuntu Condensed-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.96px;
+  line-height: 82px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.frame .text-wrapper-8 {
+  color: #54bcf9;
+  font-family: "Ubuntu Condensed-Regular", Helvetica;
+  font-size: 48px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0.96px;
+  line-height: 82px;
+  position: absolute;
+  top: 497px;
+  white-space: nowrap;
+}
+
+.frame .having-practiced-as {
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 139px;
+  width: 664px;
+}
+
+.frame .p {
+  -webkit-text-stroke: 1px #000000;
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 10px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 608px;
+  width: 343px;
+}
+
+.frame .rectangle {
+  height: 240px;
+  left: 755px;
+  object-fit: cover;
+  position: absolute;
+  top: 228px;
+  width: 319px;
+}
+
+.frame .img {
+  height: 392px;
+  left: 594px;
+  object-fit: cover;
+  position: absolute;
+  top: 665px;
+  width: 470px;
+}
+
+.frame .group {
+  background-image: url(./rectangle-5.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 392px;
+  left: 51px;
+  position: absolute;
+  top: 665px;
+  width: 470px;
+}
+
+.frame .rectangle-2 {
+  background-color: #b6b6b6fc;
+  height: 15px;
+  left: 134px;
+  position: absolute;
+  top: 62px;
+  width: 199px;
+}
+
+.frame .rectangle-3 {
+  background-color: #b6b6b6fc;
+  height: 15px;
+  left: 134px;
+  position: absolute;
+  top: 90px;
+  width: 199px;
+}
+
+.frame .rectangle-4 {
+  height: 392px;
+  left: 51px;
+  object-fit: cover;
+  position: absolute;
+  top: 1189px;
+  width: 470px;
+}
+
+.frame .text-wrapper-9 {
+  -webkit-text-stroke: 1px #000000;
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 51px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 1069px;
+  width: 470px;
+}
+
+.frame .text-wrapper-10 {
+  -webkit-text-stroke: 1px #000000;
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 592px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 1069px;
+  width: 470px;
+}
+
+.frame .text-wrapper-11 {
+  -webkit-text-stroke: 1px #000000;
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 51px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 1593px;
+  width: 470px;
+}
+
+.frame .phone {
+  -webkit-text-stroke: 1px #000000;
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 51px;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+  position: absolute;
+  top: 1867px;
+}
+
+.frame .span {
+  color: #1e1e1e;
+  font-family: "Urbanist-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  line-height: 27.3px;
+}
+
+.frame .text-wrapper-12 {
+  text-decoration: underline;
+}
