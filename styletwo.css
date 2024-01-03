@@ -1,11 +1,12 @@
 .hero-banner-section {
     background: #54bcf9;
-    height: 50vw;
+    height: 550px;
 }
 
 /*Logo section*/
-.hero-banner-section .logo {
-    margin-top: 20px;
+.hero-banner-section .logo .ellipse {
+    position: relative;
+    top: 47px;
     margin-left: auto;
     margin-right: auto;
     width: 166px;
@@ -14,8 +15,10 @@
     border: 8px solid;
     border-color: #000000;
 }
-.hero-banner-section .initials {
-    margin-top: 22px;
+
+.hero-banner-section .logo .initials {
+    position: relative;
+    top: -87px;
     margin-left: auto;
     margin-right: auto;
     font-family: "Ubuntu Condensed", Helvetica;
@@ -30,42 +33,73 @@
 
 
   /*Links Section*/
-  .hero-banner-section .info-links {
+  .hero-banner-section {
     font-family: "Urbanist", Helvetica;
     font-weight: 400;
     color: #ffffff;
     font-size: 16px;
     letter-spacing: 0.32px;
     line-height: 27.3px;
-    text-decoration: underline;
     white-space: nowrap;
   }
   /*link position*/
-  .hero-banner-section .info-links .projects {
-    margin-left: 400px;
+  .hero-banner-section .about {
+    position: relative;
+    top: -90px;
+    margin-left: -250px;
     margin-right: auto;
-    margin-top: 10px;
+    text-align: center;
   }
-  .hero-banner-section .info-links .about {
-    margin-left: 290px;
+  .hero-banner-section .projects {
+    position: relative;
+    top: -80px;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: -30px;
+    text-align: center;
   }
-  .hero-banner-section .info-links .contact {
-    margin-left: 502px;
-    margin-right: auto;
-    margin-top: -65px;
-    margin-bottom: 30px;
+  .hero-banner-section .contact {
+    position: relative;
+    top: -145px;
+    margin-left: auto;
+    margin-right: -238px;
+    text-align: center;
   }
  /*link behaviour*/ 
   a:link, a:visited {
     color: white;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline-block;
   }
   a:hover, a:active {
     color: black;
   }
 
-  
+  .hero-banner-section .intro-description .header{
+    position: relative;
+    margin-top: 0px;
+    width: 590px;
+    height: 55px;
+    margin-left: 50px;
+    font-family: "Ubuntu Condensed", Helvetica;
+    font-weight: 400;
+    color: #eeece7;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  .hero-banner-section .intro-description .body {
+    position: relative;
+    width: 800px;
+    margin-top: 20px;
+    left: 50px;
+    font-family: "Urbanist", Helvetica;
+    font-weight: 400;
+    color: #030202;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 27.3px;
+    word-break: break-all;
+    white-space: normal;
+  }
