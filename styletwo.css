@@ -2,7 +2,10 @@
     background: #54bcf9;
     height: 50vw;
 }
+
+/*Logo section*/
 .hero-banner-section .logo {
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 166px;
@@ -11,7 +14,6 @@
     border: 8px solid;
     border-color: #000000;
 }
-
 .hero-banner-section .initials {
     margin-top: 22px;
     margin-left: auto;
@@ -25,3 +27,45 @@
     line-height: normal;
     white-space: nowrap;
   }
+
+
+  /*Links Section*/
+  .hero-banner-section .info-links {
+    font-family: "Urbanist", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 27.3px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  /*link position*/
+  .hero-banner-section .info-links .projects {
+    margin-left: 400px;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .hero-banner-section .info-links .about {
+    margin-left: 290px;
+    margin-right: auto;
+    margin-top: -30px;
+  }
+  .hero-banner-section .info-links .contact {
+    margin-left: 502px;
+    margin-right: auto;
+    margin-top: -65px;
+    margin-bottom: 30px;
+  }
+ /*link behaviour*/ 
+  a:link, a:visited {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  a:hover, a:active {
+    color: black;
+  }
+
+  
