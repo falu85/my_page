@@ -77,7 +77,7 @@
 
   .hero-banner-section .intro-description .header{
     position: relative;
-    margin-top: 0px;
+    margin-top: -10px;
     width: 590px;
     height: 55px;
     margin-left: 50px;
