@@ -117,12 +117,12 @@
     white-space: nowrap;
   }
 
+  /*about-me section*/
   .portfolio-section .about-me .headers{
     margin-top: 45px;
   }
-
   /*portfolio text*/
-  .portfolio-section .portfolio-body{
+  .portfolio-section .about-me-body{
     position: relative;
     width: 664px;
     margin-top: 35px;
@@ -135,4 +135,37 @@
     line-height: 27.3px;
   }
 
+  /*project section*/
+  .portfolio-section .projects .headers{
+    margin-top: 45px;
+  }
+  /*portfolio images*/
+  .portfolio-section .projects .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    margin-left: 50px;    
+  }
+  .portfolio-section .projects .column{
+    flex: 50%;
+    max-width: 40%;
+    margin-right: 50px;
+  }
+  .portfolio-section .projects .column img{
+    margin-top: 80px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .portfolio-section .projects .project-description{
+    display: flex;
+    width: 380px;
+    top: 1069px;
+    left: 592px;
+    font-family: "Urbanist", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 27.3px;
+  }
 
