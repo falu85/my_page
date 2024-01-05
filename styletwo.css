@@ -138,6 +138,7 @@
   /*project section*/
   .portfolio-section .projects .headers{
     margin-top: 45px;
+    margin-bottom: -65px;
   }
   /*portfolio images*/
   .portfolio-section .projects .row{
