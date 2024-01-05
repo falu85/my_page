@@ -159,9 +159,7 @@
   }
   .portfolio-section .projects .project-description{
     display: flex;
-    width: 380px;
-    top: 1069px;
-    left: 592px;
+    flex-direction: column;
     font-family: "Urbanist", Helvetica;
     font-weight: 400;
     color: #1e1e1e;
