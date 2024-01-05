@@ -170,3 +170,27 @@
     line-height: 27.3px;
   }
 
+  /*Contact Section*/
+  .portfolio-section .contact .headers{
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .portfolio-section .contact .contact-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    font-family: "Urbanist", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 27.3px;
+  }
+
+  .text-underline{
+    text-decoration: underline;
+  }
+
+
