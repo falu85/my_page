@@ -66,14 +66,14 @@
     text-align: center;
   }
  /*link behaviour*/ 
-  a:link, a:visited {
-    color: white;
+    .hero-banner-section .logo a:link, a:visited {
+    color: red;
     text-align: center;
     text-decoration: underline;
     display: inline-block;
   }
-  a:hover, a:active {
-    color: black;
+    .hero-banner-section .logo a:hover, a:active {
+    color: white;
   }
 
   /*Banner intro section*/
@@ -170,7 +170,7 @@
   }
 
   .projects .row .column img{
-    border: 20px solid black;
+    border: 5px solid #54bcf9;
   }
 
   /*Contact Section*/
@@ -191,6 +191,17 @@
     letter-spacing: 0.32px;
     line-height: 27.3px;
   }
+   /*link behaviour*/ 
+    .contact-info a:link, a:visited {
+    color: #1e1e1e;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+  }
+    .contact-info a:hover, a:active {
+    color: #54bcf9;
+  }
+
 
   .text-underline{
     text-decoration: underline;
