@@ -168,6 +168,10 @@
     line-height: 27.3px;
   }
 
+  .projects .row .column img{
+    border: 20px solid black;
+  }
+
   /*Contact Section*/
   .portfolio-section .contact .headers{
     margin-top: 35px;
