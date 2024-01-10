@@ -1,6 +1,10 @@
 .hero-banner-section {
     background: #54bcf9;
-    height: 550px;
+    padding-bottom: 20px;
+}
+
+.hero-banner-section .logo {
+  color: #000000;
 }
 
 /*Logo section*/
@@ -23,14 +27,13 @@
     margin-right: auto;
     font-family: "Ubuntu Condensed", Helvetica;
     font-weight: 400;
-    color: #000000;
     font-size: 92px;
     text-align: center;
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
+    text-decoration: none;
   }
-
 
   /*Links Section*/
   .hero-banner-section {
@@ -65,14 +68,32 @@
     margin-right: -238px;
     text-align: center;
   }
- /*link behaviour*/ 
-    .hero-banner-section .logo a:link, a:visited {
+
+  /*link behaviour*/ 
+  a:visited{
+    color: inherit;
+  }
+
+  .hero-banner-section .logo > .initials a:link {
+    color: #030202;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+    .hero-banner-section .logo > .initials a:hover, a:active {
+    color: #eeece7;
+    text-decoration: none;
+  }
+
+ /*link behaviour for about, projects, and contact*/ 
+    .hero-banner-section .logo a:link {
     color: #030202;
     text-align: center;
     text-decoration: underline;
     display: inline-block;
   }
-    .hero-banner-section .logo a:hover, a:active {
+
+    .hero-banner-section .logo a:hover {
     color: #eeece7;
   }
 
@@ -123,7 +144,7 @@
     margin-top: 45px;
   }
   /*portfolio text*/
-  .portfolio-section .about-me-body{
+  .portfolio-section .body{
     position: relative;
     width: 664px;
     margin-top: 35px;
@@ -141,6 +162,7 @@
     margin-top: 45px;
     margin-bottom: -65px;
   }
+
   /*portfolio images*/
   .portfolio-section .projects .row{
     display: flex;
@@ -169,8 +191,12 @@
     line-height: 27.3px;
   }
 
-  .projects .row .column img{
+  .projects .row .column img {
     border: 5px solid #54bcf9;
+  }
+
+  .projects .row .column img:hover{
+    border: 5px solid #1e1e1e;
   }
 
   /*Contact Section*/
@@ -192,13 +218,13 @@
     line-height: 27.3px;
   }
    /*link behaviour*/ 
-    .contact-info a:link, a:visited {
+    .contact-info a:link {
     color: #1e1e1e;
     text-align: center;
     text-decoration: underline;
     display: inline-block;
   }
-    .contact-info a:hover, a:active {
+    .contact-info a:hover {
     color: #54bcf9;
   }
 
@@ -207,4 +233,41 @@
     text-decoration: underline;
   }
 
+  .text-bold {
+    font-weight: bold;
+  }
+  
+  /****************************/
+  /*DATA ANALYSIS PROJECT PAGE*/
+  /****************************/
+  h3{
+    margin-top: 45px;
+    margin-left: 50px;
+    font-family: "Urbanist", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 32px;
+    letter-spacing: 0.32px;
+    line-height: 27.3px;
+  }
 
+  .data_analysis_section .body{
+    position: relative;
+    width: 664px;
+    margin-top: 35px;
+    margin-left: 50px;
+    font-family: "Urbanist", Helvetica;
+    font-weight: 400;
+    color: #1e1e1e;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    line-height: 27.3px;
+  }
+
+  ul.bullet-point{
+    margin-left: 65px;
+    margin-bottom: 45px;
+    line-height: 27.3px;
+    list-style-type: circle;
+  }
+  

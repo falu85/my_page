@@ -24,7 +24,7 @@
     </div>
 
     <div class="intro-description">
-        <div class="header">Computer Scientist</div>
+        <div class="header">Full Stack Computer Scientist</div>
         <p class="body">
             Detail-oriented with excellent communication, interpersonal, and creative thinking skills.<br />Highly
             motivated with experience in developing and implementing software solutions with proven expertise in
@@ -40,14 +40,42 @@
         <div class="headers">
           <a id="about"> About Me </a>
         </div>
-        <p class="about-me-body">
+        <p class="body">
             Having practiced as a pediatric nurse for 10+ years, my original goal was to remain in clinical practice.
             However, being someone who questions and wants to learn more, created a growing interest in the technology
             that helped us care for our patients. This, encouraged me to obtain a degree in Computer Science.<br /><br />My
             professional work experience has helped me develop strong communication and interpersonal skills, the
             ability to work well independently and within a team, as well as the ability to assess and prioritize based
-            on continuously changing information.
-          </p>
+            on continuously changing information.<br><br>
+
+            My experience ranges from writing software documentaion, and testing firmware and hardware using a bed-of-nails. Tests were written in 
+            <span class="text-bold text-underline">Python</span> 
+            with necessary firmware written in 
+            <span class="text-bold text-underline">C</span>.
+            test fixture to writing 
+            <span class="text-bold text-underline">CSS and HTML</span>.
+            <br><br>
+            I created a web user interface (written in 
+            <span class="text-bold text-underline">Svelte</span> 
+            with a 
+            <span class="text-bold text-underline">Rust</span> 
+            backend) to sort and visualize IoT data with an interactive Google Map interface to search active IoT devices. This also included 
+            implementing new features and bug fixes to the IoT firmware.<br><br>
+            I also designed a scalable PostgreSQL (implemented using 
+            <span class="text-bold text-underline">Postgres</span>
+            ) database to receive and store data from remote LTE connected devices. I then developed scripts in 
+            <span class="text-bold text-underline">SQL</span> 
+            and 
+            <span class="text-bold text-underline">Rust</span> to benchmark 
+            the database response time when querying against 1.5 million records.<br><br>
+            I wrote a web log-in in Rust using the 
+            <span class="text-bold text-underline">Axum Framework</span> 
+            for potential customers to use. I also employed 
+            <span class="text-bold text-underline">Keycloak</span> 
+            and 
+            <span class="text-bold text-underline">OpenID Connect (OAuth2)</span>.
+        </p>
+
       </div>
     </section>
 
@@ -56,11 +84,13 @@
         <div class="headers">
           <a id="projects"> Projects </a>
         </div> 
-        
+  
         <div class="row">
 
           <div class="column">
-            <img src="img/data_analysis.png"/>
+            <a href="data_analysis_project.html">
+              <img src="img/data_analysis.png"/>
+            </a>
             <p class="project-description">Created a network between frequently used words in tweets related to COVID-19</p>
 
             <div class="movies">
