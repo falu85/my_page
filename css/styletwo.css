@@ -126,6 +126,12 @@
     word-break: break-all;
     white-space: normal;
   }
+  .hero-banner-section .intro-description .body .resume{
+    color:#eeece7;
+    font-size: 25px;
+    border: 1px solid #eeece79f;
+
+  }
 
   /*Portfolio Section*/
   .portfolio-section .headers{
