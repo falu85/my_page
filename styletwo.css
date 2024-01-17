@@ -175,6 +175,10 @@
     max-width: 40%;
     margin-right: 50px;
   }
+  .portfolio-section .projects .web_portfolio{
+    margin-top: -27px;
+  }
+
   .portfolio-section .projects .column img{
     margin-top: 80px;
     vertical-align: middle;
